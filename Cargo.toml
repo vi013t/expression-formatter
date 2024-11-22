@@ -1,0 +1,14 @@
+[package]
+name = "expression-formatter"
+description = "Insert complex expressions directly into format strings."
+version = "0.1.0"
+edition = "2021"
+authors = ["Violet"]
+license = "MIT"
+
+[dependencies]
+quote = "1.0.37"
+syn = "2.0.89"
+
+[lib]
+proc-macro = true
