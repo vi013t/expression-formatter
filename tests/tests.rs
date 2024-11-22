@@ -1,7 +1,6 @@
-use expression_formatter::format;
+use expression_formatter::println;
 
 #[test]
 fn test() {
-    let value = format!("expressions: {1 + 2} and {3 + 4} wow!");
-    println!("{}", value);
+    let value = println!(r#"{if 1 == 2 { 1 } else { 2 }}"#);
 }
